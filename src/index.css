@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-serif: "Georgia", Cambria, "Times New Roman", Times, serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  /* Custom Colors representing UCR Blue & Tech Blended Aesthetics */
+  --color-natural-bg: #F4F7FB; /* Very light subtle blue-grey background */
+  --color-natural-panel: #FFFFFF;
+  --color-natural-accent: #005DA4; /* Official UCR Royal Blue brand color */
+  --color-natural-accent-hover: #00457A;
+  --color-natural-text-main: #1D2A3A; /* Slate deep blue-black */
+  --color-natural-text-muted: #5C6E82; /* Muted slate steel blue */
+  --color-natural-border: #D2DFEE; /* Soft blue-grey border */
+  --color-natural-shadow: rgba(0,75,135,0.04);
+  --color-natural-badge-basic: #00A6CE; /* UCR Sky Blue/Celeste secondary accents */
+  --color-natural-badge-high: #002244; /* UCR dark midnight navy */
+  --color-natural-bg-accent: #EAF1F8; /* Soft UCR light blue highlight background */
+}
+
+@layer base {
+  body {
+    background-color: var(--color-natural-bg);
+    color: var(--color-natural-text-main);
+    font-family: var(--font-sans);
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Robotifest Challenge & Activity Designer",
+  "description": "Una aplicación web interactiva para ayudar a diseñadores y facilitadores de Robotifest UCR a crear retos pedagógicos, talleres STEM y actividades educativas con propósitos de acción social.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
